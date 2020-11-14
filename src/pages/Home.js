@@ -4,6 +4,7 @@ import {loadGames} from "../actions/gamesAction";
 import Game from "../components/Game";
 import styled from "styled-components";
 import {motion} from "framer-motion";
+import GameDetail from "../components/GameDetail";
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <GameList>
+            <GameDetail/>
             <h2>Upcoming games</h2>
             <Games>
                 {upcoming.map(game => (
@@ -71,6 +73,7 @@ const Games = styled(motion.div)`
     grid-column-gap: 3rem;
     grid-row-gap: 5rem;
 `;
+
 
 
 export default Home;
