@@ -1,41 +1,37 @@
-Your favorite games App!
-This is a React powered app built with the use of API in order to 
-professional photographer website with built-in login page and API for the owner to upload photos and blog posts. I've used React-Router for navigation, Redux for managing the state and I've styled this application with the use of SASS. Website has been set up on AWS.
+# Your favorite games App!
+This is a React powered app built with the use of API in order to search for the games available on the market.
+I have used React-Router for navigation, Redux for managing the state and I've styled this application with the use of styled components.
 
-mpaction1
+![gamesapp](https://user-images.githubusercontent.com/67587804/99156777-025c9700-26c4-11eb-9198-876a2bdcac06.png)
 
-Motivation
-I started this project to practise the use of Redux as well as to implement and fetch data from created API...
+## Motivation
+I started this project to practise the use of Redux as well as to call an API .  
 
-Content
-Website consists of 6 sections.
+## Content
+Website consists of 3 sections:
 
-Main page consists of carousel of best photos of the photographer as well as contact details and links to follow on social media.
+**Upcoming games** is showing all the upcoming games that will be released in the next year. 
 
-Getting into navigation bar, we can select Portfolio Page where we have examples of different categories of photos - clicking on one of them will take us to the gallery page of certain album.
+**New games** is showing all the new games that have been released last year until today. 
 
-The next section called Migawki is a blog part of the webpage, where viewers can read interesting travel stories posted with photos of the author.
+**Popular games** is showing all the popular games based on the rating. 
 
-Video section presents video portfolio of the author. You can play video directly from the page.
+**Each section** is showing a box with game name, date of release and main picture. Once clicked on the box there is a new page opening with rating, platforms you can play the chosen game as well as pictures and description.
 
-In About Me section you will find a short story taking about author's motivations as well as contact details and contact form.
-
-Section Realizations contains the list of author's last commercial projects. Each project has its own gallery with photos.
-
-The last subpage Login is only accessed by the photographer - once logged in, thanks to API connected with .... admin can easily add or remove pictures in a chosen portfolio album, as well as add blog posts. The author has a full control on what's published on the webpage.
-
-logindetails
+Navigation consists of the **search tool** to type in the certain game name that is interesting us. 
 
 See live at:
 
-Built with
-Create React App - JavaScript Framework
-React-Router - Declarative routing for React
-Redux - A predictable state container for JavaScript apps
-Sass - An extension of CSS
-React Photo Gallery - Responsive, accessible, composable, and customizable image gallery component
-React Snapshot - A zero-configuration static pre-renderer for React apps
-React Slick - Carousel component built with React
-Amazon Cognito Identity JS - Amazon Cognito Identity Provider JavaScript
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Built with:
+
+- [Create React App](https://github.com/facebook/create-react-app) - JavaScript Framework
+- [React-Router](https://github.com/ReactTraining/react-router) - Declarative routing for React
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Allows to write action creators that return a function instead of an action
+- [API](https://pl.reactjs.org/docs/react-api.html) - Defines interactions between multiple software intermediaries
+- [AXIOS](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+- [styled components](https://github.com/styled-components/styled-components) - Lets you write actual CSS in your JavaScript
+- [Framer Motion](https://www.framer.com/motion/) - Production-Ready Animation Library for React
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
