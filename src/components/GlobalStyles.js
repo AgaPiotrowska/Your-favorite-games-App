@@ -48,7 +48,7 @@ const GlobalStyles = createGlobalStyle`
     }
     input{
         font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
 `;
 
