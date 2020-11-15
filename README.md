@@ -20,7 +20,7 @@ Website consists of 3 sections:
 
 Navigation consists of the **search tool** to type in the certain game name that is interesting us. 
 
-See live at:
+See live at: https://yourfavoritegames.netlify.app/
 
 ## Built with:
 
