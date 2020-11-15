@@ -5,7 +5,6 @@ import logo from "../img/logo.svg";
 import {fetchSearch} from "../actions/gamesAction";
 import {useDispatch} from "react-redux";
 import {fadeIn} from "../animations";
-import {popup} from "../animations";
 
 const Nav = () => {
 
